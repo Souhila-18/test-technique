@@ -43,7 +43,7 @@ export const DoPage = () => {
       >
         <Stack spacing={2} component="form" onSubmit={handleSubmit} noValidate>
           <Typography component="h1" variant="h5">
-            Créer un nouveau ticket
+            Ticket à envoyer
           </Typography>
           <Ticket intitule={intitule} description={description} date={date} />
           <TextField
